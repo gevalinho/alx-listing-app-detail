@@ -19,7 +19,8 @@ export interface PropertyProps {
     shower: string;
     occupants: string;
   };
-  thumbimageProps: thumbimageProps;
-//   image: string;
+  description: string;
+  thumbimageProps: thumbimageProps | string;
+  image: thumbimageProps | string;
   discount: string;
 }
